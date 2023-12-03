@@ -1,16 +1,18 @@
 import tfroma from './Images/not1.png';
 import iss from './Images/iss.jpg';
+import logo from './Images/logo.png';
 import './App.css';
 function App() {
   return (
     <div className="HomePage">
       <header id="Artigopg">
         <div className="Menupg">
+        <img src={logo} className="menulogo" alt="foto" />
           <h1>CosmosExplorer</h1>
           <div className="menubotoes">
           <ul>
-                  <li><a href="/">Início</a> </li>
-                  <li><a href="/home#Projects">Artigos</a> </li>
+                  <li><a href="https://jacksonfnx.github.io/Projeto-Interfaces/">Início</a> </li>
+                  <li><a href="https://jacksonfnx.github.io/Projeto-Interfaces/#Projects">Artigos</a> </li>
                   <li><a href="#Sobre">Sobre</a> </li>
               </ul>
           </div>
